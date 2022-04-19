@@ -1,0 +1,82 @@
+.table {
+  width: 800px;
+}
+
+.table-item {
+  height: 60px;
+  border: 1px solid #000;
+}
+.table-name {
+  width: 300px;
+  height: 60px;
+}
+
+.table-image {
+  height: 60px;
+}
+
+.table-image img {
+  width: 40px;
+  height: 40px;
+}
+
+.table-desc {
+  width: 200px;
+}
+
+.form-create {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.form-group label {
+  width: 150px;
+  font-weight: 600;
+}
+
+.form-group input {
+  height: 50px;
+  padding-left: 10px;
+  width: 500px;
+  border-radius: 10px;
+  border: 1px solid royalblue;
+}
+
+.form-group input:focus {
+  outline: none;
+}
+
+.form-group textarea {
+  width: 500px;
+  border-radius: 10px;
+  border: 1px solid royalblue;
+  padding: 10px 0 0 10px;
+}
+
+.form-create button {
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  background-color: deepskyblue;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  align-self: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.form-create button:hover {
+  background-color: hotpink;
+}
+
+.modal {
+  width: 700px;
+}
